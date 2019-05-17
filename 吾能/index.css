@@ -1,0 +1,289 @@
+/*æ ¡åŠ¡å…¬å‘Š*/
+.info-box  .news .words{
+    width: 215px !important;  
+}
+/*å­¦æœ¯è®²åº§*/
+#academic .news .words{
+    width: 250px !important;
+}
+/*æ‹›æ ‡ä¿¡æ¯*/
+#schoolInfo .news .words{
+    width: 250px !important;
+}
+/*æ–°é—»*/
+#news .news .words{
+    width: 220px !important;
+}
+a:hover{
+	cursor: pointer
+}
+.pic__detail p{
+    width: 201px !important;
+    height: 144px !important;
+    overflow: hidden !important;
+}
+@-webkit-keyframes slideDown {
+  0% {
+    opacity: 0;
+    top: -8px;
+  }
+  100% {
+    opacity: .8;
+    top: 0;
+  }
+}
+@-moz-keyframes slideDown {
+  0% {
+    opacity: 0;
+    top: -8px;
+  }
+  100% {
+    opacity: .8;
+    top: 0;
+  }
+}
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    top: -8px;
+  }
+  100% {
+    opacity: .8;
+    top: 0;
+  }
+}
+
+
+.info-box .title {
+  height: 46px;
+  margin-bottom: 13px;
+  overflow: hidden;
+  zoom: 1;
+  position: relative;
+  border-bottom: 1px solid #00c896;
+}
+.info-box .title h1 {   /**189**/
+  font: normal normal 18px 'å¾®è½¯é›…é»‘', '\5FAE\8F6F\96C5\9ED1', 'Microsoft YaHei';
+  float: left;
+  margin-top: 14px;/**外边距**/
+}
+.info-box .title .more {
+  font-size: 13px;
+  font-weight: normal;
+  color: #b2b2b2;
+  line-height: 60px;
+  float: right;
+}
+.info-box .title a {
+  color: #000000;
+  -webkit-transition: color .2s;
+  -moz-transition: color .2s;
+  transition: color .2s;
+}
+.info-box .title a:hover {/**hover鼠标**/
+  color: #a13636;
+}
+.info-box .title .triangle {
+  position: absolute;
+  border-right: 4px dashed transparent;
+  border-left: 4px dashed transparent;
+  border-bottom: 6px solid #00c896;
+  left: 40px;
+  top: 42px;
+  height: 0;
+  width: 0;
+  -webkit-transition: left .2s;
+  -moz-transition: left .2s;
+  transition: left .2s;
+}
+.list-box .news {
+  display: block;
+  height: 24px;
+  text-indent: 10px;
+  border-top: 1px solid #dcdcdc;
+  background: url(../img/dot.png) center left no-repeat
+}
+.list-box .news:hover {
+  background: #f1f1f1;
+}
+.list-box .news:first-child {
+  border: none;
+}
+.list-box .news .words {
+  line-height: 24px;
+    display: block;
+    height: 100%;
+    width: 190px;
+    overflow: hidden;
+  color: #666666;
+  float: left;
+  -webkit-transition: color .2s;
+  -moz-transition: color .2s;
+  transition: color .2s;
+}
+.list-box .news .words:hover {
+  color: #474747;
+}
+.list-box .news .time {
+  line-height: 24px;
+  color: #b2b2b2;
+  float: right;
+}
+
+body {
+  margin: 0;
+  font-size: 13px;
+  font-family: 'å®‹ä½“', '\5b8b\4f53', 'SimSun';
+}
+.banner {
+  height: 310px;
+  background: #f3f3f3;
+}
+.banner .wrap {     /**177**/
+  position: relative;
+}
+.banner img {
+  width: 990px;
+  height: 310px;
+}
+.banner .banner_inner ,#banner_slider{
+  position: relative;
+    height: 310px;
+}
+#banner_slider{/**181***/
+    z-index: 1;
+}
+
+.nivo-controlNav {
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+}
+
+.nivo-controlNav a {
+    text-indent: -2000px;
+  display: block;
+  float: left;
+  width: 10px;
+  height: 10px;
+  margin-left: 6px;
+  background: url(../img/controller.png) -18px 0 no-repeat;
+}
+
+/*.nivo-controlNav .active {
+  background-position: 0 0;
+}*/
+
+.leftbox {
+  width: 352px;
+}
+.rightbox {
+  width: 298px;
+}
+.news {
+  height: 207px;
+}
+.may-iframe {
+  width: 692px;
+  float: left;
+}
+.ads {
+  position: relative;
+  margin-top: 49px;
+  width: 261px;
+  height: 163px;
+  z-index: 10009;
+}
+#ads_slider {
+  height: 100%;
+}
+
+.pic__photo {
+  width: 183px;
+  height: 137px;
+}
+.pic__detail {
+  margin-left: 194px;
+
+}
+.pic__detail p {
+  color: #878787;
+    margin:0;
+  line-height: 24px;
+}
+.pic__detail .pic__title {
+    margin: 0;
+    font-size: 13px;
+    font-weight: normal;
+    color: #000000 ;
+    display: block;
+}
+.pic__detail .pic__title:hover{
+    color: blue;
+}
+.links {
+  margin-right: 5px;
+  position: relative;
+  z-index: 1000;
+}
+.links .select {/**187**/
+  display: block;
+  width: 74px;
+  height: 22px;
+  text-align: center;
+  margin-top: 12px;
+  position: relative;
+  color: #bdf1e4;
+  line-height: 22px;
+  font: normal normal 14px 'å¾®è½¯é›…é»‘', '\5FAE\8F6F\96C5\9ED1', 'Microsoft YaHei';
+}
+.links .select li {
+  text-align: left;
+}
+.links .select._s1 {
+  margin: 0;
+}
+.links .select a {
+  color: white;
+  font-size: 12px;
+}
+.links .select ul {
+  list-style: none;
+  background: #00c896;
+  margin: 0;
+  opacity: .9;
+  position: absolute;
+  z-index: 1001;
+  zoom: 1;
+  left: 0;
+  width: 220px;
+  display: none;
+  left: 74px;
+}
+.links .select ul li {
+  height: 22px;
+  line-height: 22px;
+  padding: 0 10px;
+}
+.s-links {/**272**/
+  text-align: left;
+  position: relative;
+  top: -3px;
+  *top: -5px;
+}
+.s-links tr {
+  height: 22px;
+}
+.s-links td a {
+  padding-left: 3px;
+}
+.s-links td:first-child a {
+  padding: 0;
+}
+.s-links td:hover {
+  background: #f1f1f1;
+}
+.s-links td:hover a {
+  color: #000000;
+}
+

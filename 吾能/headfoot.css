@@ -1,0 +1,373 @@
+.clearfix:after 
+{
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix 
+{
+  /* è§¦å‘ hasLayout */
+  zoom: 1;
+}
+::selection 
+{
+  background: #67e4ff;
+}
+ul 
+{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.left 
+{
+  float: left;
+}
+.hide 
+{
+  display: none !important;
+}
+a 
+{
+  color: #666666;
+  text-decoration: none;
+}
+.ml35 
+{
+  margin-left: 35px;
+}
+.right 
+{
+  float: right;
+}
+.wrap 
+{
+  width: 990px;
+  margin: 0 auto;
+}
+.page-header 
+{
+  height: 112px;
+  overflow: hidden;
+  background: url(../img/bg.png) repeat-x;
+}
+.page-header .wrap
+ {
+  position: relative;
+  z-index: 0;
+}
+.page-header .language 
+{
+  padding-top: 10px;
+  height: 18px;
+}
+.page-header .language a,
+.page-header .language span 
+{
+  font-size: 13px;
+  color: #777777;
+}
+.page-header .bg
+{
+  width: 743px;
+  height: 112px;
+  position: absolute;
+  left: 247px;
+  top: 0;
+  z-index: -1;
+  background: url(../img/bg2.png) no-repeat;
+}
+.page-header .headbox 
+{
+  height: 5px;
+}
+.page-footer /**215**/
+{
+  height: 80px;
+  padding: 15px 0;
+  text-align: center;
+  margin-top: 35px;
+}
+.page-footer span 
+{
+  font-size: 13px;
+  color: #ffffff;
+}
+.page-nav 
+{
+  height: 41px;
+  border-bottom: 1px solid #FFFFFF;/**width-style-color**/
+  position: relative;/**相对定位，fixed绝对定位，absolute相对于static以外的第一个父类元素进行绝对定位*/
+  z-index: 100;/**设置堆叠顺序，仅对定位元素奏效，可以拥有负值**/
+}
+.page-navs 
+{
+  height: 100%;/**基于41px的百分百**/
+}
+.page-navs a /**基于有a元素的**/
+{
+  font-size: 15px;/**字体大小**/
+  color: white;/**字体颜色**/
+  line-height: 41px;/**行高**/
+}
+.page-navs li 
+{
+  position: relative;
+  display: block;/**生成框的类型block块级元素前后有换行符，inline内联，**/
+  float: left;
+  width: 99px;
+  height: 100%;
+  text-align: center;/**文本水平对齐方式**/
+}
+.page-navs li:hover ul /**鼠标选择器**/
+{
+  display: block;
+}
+.page-navs-inner 
+{
+  -webkit-animation: slideDown ease-out 0.2s;/**~webkit支持chrome,~moz支持ie浏览器**/
+  -moz-animation: slideDown ease-out 0.2s;/**-delay开始前延迟，direction/normal正常，reverse反向，alternate奇正偶反，alternate-reverse奇反偶正/循环交替反向播放，duration一个周期耗时，timing-function速度图像，-iteration-count播放此时**/
+  animation: slideDown ease-out 0.2s;/**-timing-function,linear速度相同，ease前快后慢，ease-in低速开始，ease-out低速结束，ease-in-out低速开始低速结束**/
+  position: absolute;
+  z-index: 199;
+  padding: 0;/**内边距**/
+  top: 0px;
+  left: 0;
+  opacity: .8;/**透明度**/
+  display: none;
+}
+.page-navs-inner li 
+{
+  height: 30px;
+}
+.page-navs-inner li a 
+{
+  font-size: 13px;
+  line-height: 30px;
+}
+.page-navs-inner li:first-child /**其父元素的首个子元素进行选择**/
+{
+  height: 39px;
+  border-top: none !important;/**！important优先级最高**/
+  border-bottom: 2px solid #fade73;/**solid实线**/
+}
+.page-navs-inner li:first-child a 
+{
+  font-size: 15px;
+  line-height: 41px;
+}
+.btwhite 
+{
+  border-top: 1px solid #ffffff !important;
+}
+
+.spring ._s1 
+{
+  background: #00c896;
+}
+.spring ._s2 
+{
+  background: #00c896;
+}
+.spring ._s3 
+{
+  background: #00c896;
+}
+
+.spring .select:hover
+{
+  background: #008264;
+}
+.spring .headbox,
+.spring .page-nav,
+.spring .page-footer 
+{
+  background: #00c896;
+}
+.spring .page-navs-inner,
+.spring .links .select ul 
+{
+  background: #00c897;
+}
+.spring .page-navs-inner li,
+.spring .links .select ul li 
+{
+  border-top: 1px solid #05e7af;
+}
+.spring .page-navs-inner li:hover,
+.spring .links .select ul li:hover 
+{
+  background: #008264;
+}
+.spring .page-navs li:hover 
+{
+  background: #008264;
+}
+.spring .page-navs li.active
+ {
+  height: 39px;
+  border-bottom: 2px solid #fade73;
+  background: #008264;
+}
+.summer .info-box .title
+{
+	border-bottom: 1px solid #0085fb
+}
+
+.spring .info-box .title
+{
+	border-bottom: 1px solid #00c896
+}
+.summer ._s1 
+{
+  background: #0086fa;
+}
+.summer ._s2 
+{
+	/*
+  background: #276aa4;
+  */
+   background: #0086fa;
+}
+.summer ._s3 
+{
+  background: #0086fa;
+}
+.summer .headbox,
+.summer .page-nav,
+.summer .page-footer 
+{
+  background: #0085fb;
+}
+.summer .page-navs-inner,
+.summer .links .select ul 
+{
+  background: #0085fb;
+}
+.summer .page-navs-inner li,
+.summer .links .select ul li 
+{
+  border-top: 1px solid #3280c4;
+}
+.summer .page-navs-inner li:hover,
+.summer .links .select ul li:hover 
+{
+  background: #0f6fc3;
+}
+.summer .page-navs li:hover {
+  background: #286aa4;
+}
+.summer .page-navs li.active {
+  background: #0f6fc3;
+}
+.autumn ._s1 {
+  background: #fcb004;
+}
+.autumn ._s2 {
+  background: #ef7103;
+}
+.autumn ._s3 {
+  background: #fbb100;
+}
+.autumn .info-box .title{
+	border-bottom: 1px solid #fbb000
+}
+.autumn .info-box .title .triangle {
+	border-bottom-color: #ee7300;
+}
+.autumn .page-nav a{
+	color: #fff !important;
+}
+.autumn .page-nav a:hover {
+	color: #ed7101 !important;
+}
+.autumn .headbox,
+.autumn .page-nav,
+.autumn .page-footer {
+  background: #feb500;
+}
+.autumn .page-navs-inner,
+.autumn .links .select ul {
+  background: #ff7b0c;
+}
+.autumn .page-navs-inner li,
+.autumn .links .select ul li {
+  border-top: 1px solid #fa8b2d;
+}
+.autumn .page-navs-inner li:hover,
+.autumn .links .select ul li:hover {
+  background: #dc6b0b;
+}
+.autumn .page-navs-inner li.active,
+.autumn .links .select ul li.active {
+  background: #ff7b0c;
+}
+.autumn .page-navs li:hover,
+.autumn .links .select ul li:hover {
+  background: #e46f0d;
+}
+/**.winter ._s1 {
+  background: #81b7c9;
+  cursor:pointer;
+  
+}
+.winter ._s1:hover {
+  background: #e87332;
+}
+.winter ._s2 {
+	/*
+  background: #f75b04;
+  */
+  background: #81b7c9;
+  cursor:pointer;
+}
+.winter ._s2:hover {
+  background: #e87332;
+}
+.winter ._s3 {
+  background: #81b7c9;
+  cursor:pointer;
+}
+.winter ._s3:hover {
+  background: #e87332;
+}
+.winter .headbox,
+.winter .page-nav,
+.winter .page-footer {
+  background: #81b7c9;
+}
+.winter .page-navs-inner,
+.winter .links .select ul {
+  background: #f97c36;
+}
+.winter .page-navs-inner li,
+.winter .links .select ul li {
+  border-top: 1px solid #fff;
+}
+.winter .page-navs-inner li:hover,
+.winter .links .select ul li:hover {
+  background: #e87332;
+}
+.winter .page-navs-inner li.active,
+.winter .links .select ul li.active {
+  background: #e87332;
+}
+.winter .page-navs li:hover {
+  background: #e87332	;
+}
+
+.winter .list-box .news .words:hover {
+    color: #f97c36 !important;
+}
+/*
+.winter .info-box .title a[href="notice.shtml"]{
+	
+	color: #f97c36;
+
+}
+*/
+.winter .info-box .title .more {
+    color: #b2b2b2 !important;
+}
